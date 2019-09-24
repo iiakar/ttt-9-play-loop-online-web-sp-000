@@ -38,9 +38,6 @@ end
 # Define your play method below
 
 def play(board)
-  counter = 0 
-  while counter < 10
-  turn
-  counter += 1
-end 
-end 
+  5.times do |turn|
+	puts turn
+end
